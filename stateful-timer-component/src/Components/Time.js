@@ -46,15 +46,15 @@ class Timer extends React.Component{
       <div className="container">
         <div className="time">
           <div className="bloc">
-             <span>{String(this.state.hours).padStart(2, '0')}:</span> 
+             <span>{String(this.state.hours).padStart(2, '0')}</span> 
             <span className="txt">Hours</span>
           </div>
-          
+          :
           <div className="bloc">
-           <span>{String(this.state.minutes).padStart(2, '0')}:</span> 
+           <span>{String(this.state.minutes).padStart(2, '0')}</span> 
             <span className="txt">Minutes</span>
           </div>
-          
+          :
           <div className="bloc">
             {<span>{String(this.state.seconds).padStart(2, '0')}</span>}
             <span className="txt">Seconds</span>
